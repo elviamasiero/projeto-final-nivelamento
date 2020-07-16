@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+function maiorMenor(a, b, c, d, e){
+    var maior = Math.max(a, b, c, d, e);
+    var menor = Math.min(a, b, c, d, e);
+    document.write('O maior número é: ' + maior + '<br>');
+    document.write('O menor número é: ' + menor + '<br>');
+
+}
+maiorMenor(parseInt(prompt('Digite o primeiro número: ')), parseInt(prompt('Digite o segundo número:')), parseInt(prompt('Digite o terceiro número:')), parseInt(prompt('Digite o quarto número:')), parseInt(prompt('Digite o quinto número:')));
+ 
+ /*Aqui vou verificar se os números são pares ou ímpares
+ function (parImpar){
+            if(maiorMenor % 2 != 0){
+                return "Impar";
+            } else{
+                return "Par";
+            }
+        }
+    
+        alert(parImpar);
+
+        NÃO DEU CERTO!!
+        
+*/
+    </script>
+</body>
+</html>
